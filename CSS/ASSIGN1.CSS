@@ -1,0 +1,44 @@
+body{
+     background-image: url( ../IMG/MARBLE.jfif) ;
+    background-repeat: no-repeat; background-size: cover;
+    font-family: 'Monoton', cursive;}
+
+    #top {  width:60%; float:right ;
+         height:80px ;  padding-bottom: 20px; font-size: 19px}
+
+        ul li {
+            display: inline;
+            margin: 3px; 
+        }
+        
+        ul li a {
+            text-decoration: none;
+            color:white;
+            background-color: pink;
+            padding: 10px 15px; border-radius:15%;  }
+        
+        ul li:hover{
+            background-color: white;
+            padding: 10px 15px;
+            border-radius: 50px;
+        }
+        
+        ul li a:hover{
+            color: white ;
+        }
+        h1{ color: white }
+        p{ color: white; font-size: medium;}
+
+    #heading{ width:100%; float:right ;
+        background-color:pink;
+        height:250px ; padding-left: 30px;
+         }
+  
+    #finegeh{ height: 250px; border-radius: 100%; width: 80%;}
+
+    #babe{  width:100%; float:left ;
+        height:250px ;  padding-bottom: 20px;}
+
+    #div1{ float: left;height: 250px; width: 33%;}
+        #div2 { float: left; height: 250px;width: 33%}
+            #div3{ float: right; height: 250px;width: 33%}
