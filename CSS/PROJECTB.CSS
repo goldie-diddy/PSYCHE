@@ -1,6 +1,10 @@
 body{
         font-weight: 100;
-        background: radial-gradient(#a23982 ,#1f1013);}
+        /* background: radial-gradient(#a23982 ,#1f1013); */
+        background-attachment:fixed;
+        background-size:cover;
+    }
+        
 
         .light {
             position: absolute;
@@ -15,7 +19,7 @@ body{
             right: 0px;
             margin: auto;}
 
-        ul li {
+        /* ul li {
             display: inline;
             margin: 3px; 
         }
@@ -35,7 +39,7 @@ body{
         
         ul li a:hover{
             color: #a23982   ;
-        }
+        } */
 
 
         #head5{
@@ -57,7 +61,7 @@ body{
     #intro{ text-align: center; margin-top: 1px; font-size:medium;
         font-weight: bold; color: white; font-size :30px; text-shadow: 5px 5px 10px black;
          padding-left: 50px; padding-right: 50px; }
-
+/* 
         button {
             
             border: 2px solid white;
@@ -76,7 +80,7 @@ body{
             margin-top: 50px;
             margin-left: 100px;
             transition: .3s;
-            margin-top: 200px;
+            margin-top: 200px; */
           }
           
           button:hover{
@@ -88,7 +92,114 @@ body{
             transition: .3s;
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
          
-p{ font-size: 20px; color: white;} 
+#intro{ font-size: 30px; color: white; margin-top: 150px;} 
  #goat {color: black}
 
  #finegeh{ height: 200px;  width: 100%;}
+
+ ol li {
+    display:flex;
+    margin: 3px; 
+}
+
+ol li a {
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+    display: inline;
+    padding: 10px 15px; 
+     border-bottom:2px solid black ; }
+
+    .card{
+        margin-top: 100px;width: 400px;
+    }
+    h5{
+        text-shadow: 5px 5px 10px #2C5483;
+    }
+
+    
+
+    
+      
+      .submit{
+        font-size: 1.1em;
+        float: right;
+        width: 150px;
+        background-color: transparent;
+        color: #fff;
+      
+      }
+      
+      #nav{ height: 50px; color: white;
+    font-size: 20px;   }
+  #carousel{ width: 40%; height: 200px; margin-top:200px}
+ 
+
+
+
+  fhis contact form
+
+  #contactme{
+    background-color: black;
+    font-family: "Nunito Sans";
+    }
+    .login-form{
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    background-color: black;
+    padding: 25px;
+    }
+    h3{ color: white;
+    padding-left:30px;
+    padding-right: 20px;
+    }
+    h2{color: white;
+   font-size: 50px;
+   font-weight: bold; 
+   margin-left: 20px;
+    }
+
+    h4{color: #fff; margin-left: 30px; }
+    .btn-custom{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+    font-weight:700;
+    height: 48px;
+    }
+    .btn-custom{
+    color: #fff !important;
+    }
+    input{
+    height: 52px;
+    font-size: 18px !important;
+    color: black;
+    }
+    .form-control:focus{
+    box-shadow: 0 0 0 0 rgba(13,110,253,.25);
+    }
+    a{
+    text-decoration: none;
+    }
+    a:hover{
+    text-decoration: underline;
+    }
+    @media(max-width: 768px){
+      .col-md-7,p{
+        display: none;
+      }
+      input{
+        font-size: 20px !important;
+      }
+      .login-form{
+        box-shadow: none;
+      }
+    }
+  
+  /* textarea.form-control {
+    height: 135px;
+   /* margin-top: px;*/
+*/
